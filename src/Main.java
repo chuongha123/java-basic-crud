@@ -76,6 +76,7 @@ public class Main {
 
                 }
                 case "2":{
+                    // alo
                     System.out.print("Enter id to remove: ");
                     String id = scanner.nextLine();
                     System.out.println(managerDocument.deleteDocument(id) ? "Success" : "Fail");
